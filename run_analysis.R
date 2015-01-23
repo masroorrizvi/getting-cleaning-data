@@ -304,9 +304,10 @@ tidydata<-summarize(selectMeasurementsGroupedBySubjectsActivities,meanAveBodyAcc
 
 dim(tidydata)
 str(tidydata)
+tidydata
 
 ##Write the data to a text file
-write.table(tidydata,"./Dataset/tidydata.txt",row.names=FALSE)
+##write.table(tidydata,"./Dataset/tidydata.txt",row.names=FALSE)
 
 ##Read it back to confirm everying looks alright
 ##str(read.table("./Dataset/tidydata.txt",header = TRUE, stringsAsFactors = FALSE ))
