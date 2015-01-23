@@ -1,4 +1,4 @@
-# README File for the Getting and Cleaning Data Course Project
+# README File - Getting and Cleaning Data Course Project
 
 First of all, many thanks for evaluating my course project. As mentioned in the starting instructions, I'll start with explaining the contents of run_analysis.R file.
 
@@ -26,4 +26,4 @@ Now I have two sets of data available - the train data and the test data. Since 
 
 STEP 2
 
-In step 2, we need to extract out only the Subjects, Mean and standard deviation columns from the entire list of 563 columns in mergedDataset. The SELECT function of dplyr library comes to use here and we save the output in selectMeasurements. Just before doing this, to clean up the data and find unique elements, we apply make.names method on mergedData set
+In step 2, we need to extract out only the Subjects, Mean and standard deviation columns from the entire list of 563 columns in mergedDataset. The SELECT function of dplyr library comes to use here and we save the output in selectMeasurements. Just before doing this, to clean up the data and find unique elements, we apply make.names method on mergedData set.
