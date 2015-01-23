@@ -22,4 +22,8 @@ Now have a look at another file in the dataset called subject_train.txt. This fi
 
 I do exactly the same sets of the above steps for test data now and save it into x_subjectLabeledTestData variable.
 
-Now I have two sets of data available - the train data and the test data. Since both these datasets have same number of columns (i.e 563 now), and step 1 is asking to merge the data sets, I use the rbind command now to merge the two data sets and store the result in mergedDataset variable. I do a couple of sanity check to find out that this variable (which by the way is a dataframe) has 10299 rows and 263 variables now. This marks the completion of step 1 
+Now I have two sets of data available - the train data and the test data. Since both these datasets have same number of columns (i.e 563 now), and step 1 is asking to merge the data sets, I use the rbind command now to merge the two data sets and store the result in mergedDataset variable. I do a couple of sanity check to find out that this variable (which by the way is a dataframe) has 10299 rows and 263 variables now. This marks the completion of step 1
+
+STEP 2
+
+In step 2, we need to extract out only the Subjects, Mean and standard deviation columns from the entire list of 563 columns in mergedDataset. The SELECT function of dplyr library comes to use here and we save the output in selectMeasurements. Just before doing this, to clean up the data and find unique elements, we apply make.names method on mergedData set
