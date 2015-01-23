@@ -22,4 +22,4 @@ Now have a look at another file in the dataset called subject_train.txt. This fi
 
 I do exactly the same sets of the above steps for test data now and save it into x_subjectLabeledTestData variable.
 
-Now I have two sets of data available - the train data and the test data 
+Now I have two sets of data available - the train data and the test data. Since both these datasets have same number of columns (i.e 563 now), and step 1 is asking to merge the data sets, I use the rbind command now to merge the two data sets and store the result in mergedDataset variable. I do a couple of sanity check to find out that this variable (which by the way is a dataframe) has 10299 rows and 263 variables now. This marks the completion of step 1 
