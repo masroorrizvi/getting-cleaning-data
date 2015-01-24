@@ -52,50 +52,138 @@ This column have all the values for the Subjects (1-30) which have taken the tes
 - Activity -
 These are WALKING, WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING. In this column all the above activities are listed with respect to the 30 subjects above.
 
-- meanAveBodyAccTimeXAxis 
+- meanAveBodyAccTimeXAxis -
 This is the variable which calculates the average of the average body acceleration time linearly along X Axis
 
-- meanAveBodyAccTimeYAxis 
+- meanAveBodyAccTimeYAxis -
 This is the variable which calculates the average of the average body acceleration time linearly  along Y Axis
 
-- meanAveBodyAccTimeZAxis 
+- meanAveBodyAccTimeZAxis -
 This is the variable which calculates the average of the average body acceleration time linearly  along Z Axis
 
-- meanStandardDevBodyAccTimeXAxis 
+- meanStandardDevBodyAccTimeXAxis -
 This is the variable which calculates the average of the standard deviation body acceleration time linearly along X Axis
 
-- meanStandardDevBodyAccTimeYAxis 
+- meanStandardDevBodyAccTimeYAxis -
 This is the variable which calculates the average of the standard deviation body acceleration time linearly along Y Axis
 
-- meanStandardDevBodyAccTimeZAxis 
+- meanStandardDevBodyAccTimeZAxis -
 This is the variable which calculates the average of the standard deviation body acceleration time linearly along Z Axis
 
-- meanAveGravityAccTimeXAxis 
+- meanAveGravityAccTimeXAxis -
 This is the variable which calculates the average of the average gravity acceleration time linearly along X Axis
 
-- meanAveGravityAccTimeYAxis 
+- meanAveGravityAccTimeYAxis -
 This is the variable which calculates the average of the average gravity acceleration time linearly along Y Axis
 
-- meanAveGravityAccTimeZAxis 
+- meanAveGravityAccTimeZAxis -
 This is the variable which calculates the average of the average gravity acceleration time linearly along Z Axis
 
-- meanStandardDevGravityAccTimeXAxis 
+- meanStandardDevGravityAccTimeXAxis -
 This is the variable which calculates the average of the standard deviation gravity acceleration time linearly along X Axis
 
-- meanStandardDevGravityAccTimeYAxis 
+- meanStandardDevGravityAccTimeYAxis -
 This is the variable which calculates the average of the standard deviation gravity acceleration time linearly along Y Axis
 
-- meanStandardDevGravityAccTimeZAxis 
+- meanStandardDevGravityAccTimeZAxis -
 This is the variable which calculates the average of the standard deviation gravity acceleration time linearly along Z Axis
 
-- meanAveBodyAccJerkTimeXAxis 
+- meanAveBodyAccJerkTimeXAxis -
 This is the variable which calculates the average of the average body acceleration time including the jerks linearly along X Axis
 
-- meanAveBodyAccJerkTimeYAxis 
+- meanAveBodyAccJerkTimeYAxis -
 This is the variable which calculates the average of the average body acceleration time including the jerks linearly along Y Axis
 
-- meanAveBodyAccJerkTimeZAxis 
+- meanAveBodyAccJerkTimeZAxis -
 This is the variable which calculates the average of the average body acceleration time including the jerks linearly along Z Axis
+
+- meanStandardDevBodyAccJerkTimeXAxis -
+This is the variable which calculates the average of the standard deviation body acceleration time including the jerks linearly along X Axis
+
+- meanStandardDevBodyAccJerkTimeYAxis -
+This is the variable which calculates the average of the standard deviation body acceleration time including the jerks linearly along Y Axis
+
+- meanStandardDevBodyAccJerkTimeZAxis -
+This is the variable which calculates the average of the standard deviation body acceleration time including the jerks linearly along Z Axis
+
+- meanAveBodyGyrometerTimeXAxis -
+This is the variable which calculates the average of the average body Gyrometer time linearly along X Axis
+
+- meanAveBodyGyrometerTimeYAxis -
+This is the variable which calculates the average of the average body Gyrometer time linearly along Z Axis
+
+- meanAveBodyGyrometerTimeZAxis -
+This is the variable which calculates the average of the average body Gyrometer time linearly along Z Axis
+
+- meanStandardDevBodyGyrometerAccTimeXAxis -
+This is the variable which calculates the average of the standard deviation body Gyrometer time linearly along X Axis
+
+- meanStandardDevBodyGyrometerAccTimeYAxis -
+This is the variable which calculates the average of the standard deviation body Gyrometer time linearly along Y Axis
+
+- meanStandardDevBodyGyrometerAccTimeZAxis -
+This is the variable which calculates the average of the standard deviation body Gyrometer time linearly along Z Axis
+
+- meanAveBodyGyrometerJerkTimeXAxis -
+This is the variable which calculates the average of the average body Gyrometer time including the jerks linearly along X Axis
+
+- meanAveBodyGyrometerJerkTimeYAxis -
+This is the variable which calculates the average of the average body Gyrometer time including the jerks linearly along Z Axis
+
+- meanAveBodyGyrometerJerkTimeZAxis -
+This is the variable which calculates the average of the average body Gyrometer time including the jerks linearly along Z Axis
+
+- meanStandardDevBodyGyrometerAccJerkTimeXAxis -
+This is the variable which calculates the average of the standard deviation body Gyrometer time including the jerks linearly along X Axis
+
+- meanStandardDevBodyGyrometerAccTimeYAxis -
+This is the variable which calculates the average of the standard deviation body Gyrometer time including the jerks linearly along Y Axis
+
+- meanStandardDevBodyGyrometerAccTimeZAxis -
+This is the variable which calculates the average of the standard deviation body Gyrometer time including the jerks linearly along Z Axis
+
+meanAveBodyAccMagnitudeTime
+meanStandardDevBodyAccMagnitudeTime
+meanAveGravityAccMagnitudeTime
+meanStandardDevGravityAccMagnitudeTime
+meanAveBodyAccJerkMagnitudeTime
+meanStandardDevBodyAccJerkMagnitudeTime
+meanAveBodyGyrometerMagnitudeTime
+meanStandardDevBodyGyrometerMagnitudeTime
+meanAveBodyGyrometerJerkMagnitudeTime
+meanStandardDevBodyGyrometerJerkMagnitudeTime
+meanAveBodyAccFastFourierTransformXAxis
+meanAveBodyAccFastFourierTransformYAxis
+meanAveBodyAccFastFourierTransformZAxis
+meanStandardDevBodyAccFastFourierTransformXAxis
+meanStandardDevBodyAccFastFourierTransformYAxis
+meanStandardDevBodyAccFastFourierTransformZAxis
+meanAveBodyAccJerkFastFourierTransformXAxis
+meanAveBodyAccJerkFastFourierTransformYAxis
+meanAveBodyAccJerkFastFourierTransformZAxis
+meanStandardDevBodyAccJerkFastFourierTransformXAxis
+meanStandardDevBodyAccJerkFastFourierTransformYAxis
+          meanStandardDevBodyAccJerkFastFourierTransformZAxis
+          meanAveBodyGyrometerFastFourierTransformXAxis
+          meanAveBodyGyrometerFastFourierTransformYAxis
+          meanAveBodyGyrometerFastFourierTransformZAxis
+          meanStandardDevBodyAccGyrometerFourierTransformXAxis
+          meanStandardDevBodyAccGyrometerFourierTransformYAxis
+          meanStandardDevBodyAccGyrometerFourierTransformZAxis
+          meanAveBodyAccMagnitudeFastFourierTransform
+          meanStandardDevBodyAccMagnitudeFastFourierTransform
+          meanAveBodyGyrometerJerkMagnitudeFastFourierTransform
+          meanStandardDevGyrometerJerkMagnitudeFastFourierTransform
+          meanAveAngularBodyAccJerkTime
+          meanAveAngularBodyGyrometerTime
+          meanAveAngularBodyGyrometerJerkTime
+          meanAveAngularGravityXAxis
+          meanAveAngularGravityYAxis
+          meanAveAngularGravityZAxis
+
+
+
+
 
 
 

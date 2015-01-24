@@ -17,5 +17,7 @@ First time around, run the script to see the tidy data at the console. Once sati
 
 Please see the newly read data at the console to make sure that it looks alright. The data should show 180 rows and 70 columns.
 
+All the details of what the run_analysis code does is explained in CodeBook attached in this repository
+
 
 
