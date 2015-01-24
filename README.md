@@ -26,4 +26,27 @@ Now I have two sets of data available - the train data and the test data. Since 
 
 STEP 2
 
-In step 2, we need to extract out only the Subjects, Mean and standard deviation columns from the entire list of 563 columns in mergedDataset. The SELECT function of dplyr library comes to use here and we save the output in selectMeasurements. Just before doing this, to clean up the data and find unique elements, we apply make.names method on mergedData set.
+In step 2, we need to extract out only the Subjects, Mean and standard deviation columns from the entire list of 563 columns in mergedDataset. The SELECT function of dplyr library comes to use here and we save the output in selectMeasurements. The selectMeasurements dataset now has only 68 columns and 10299Just before doing this, to clean up the data and find unique elements, we apply make.names method on mergedData set. 
+
+STEP 3
+
+The 3rd step requires to change the activity names from numeric (1,2,3 etc) to the character values ("WALKING", "STANDINFG" etc). So I now need to  change the Activity numbers to their corresponding character value as per the activity_labels.txt. For e.g Walking for 1, WALKING_UPSTAIRS for 2 etc. For this I have written a simple FOR loop for all and 6 activities replacing the numeric values to their corresponding character values in Column 2 for the dataset (i.e Activity Column of selectMeasurements dataframe). The selectMeasurements dataframe is now properly labelled for descriptive activities.
+
+STEP 4
+
+For step 4, we are supposed to give descriptive names to all the the columns in addition to Subjects and Activity columns of the dataset. For this I have used the paste function to give the new coloumn names and assigned the new names using "names" function. I do this for all the 68 mean and standard deviation variables of the dataset.
+
+STEP 5
+
+Now is the time to create the tidy dataset. Do do this, I first convert the selectMeasurements dataframe to a data table using tbl_df function and save it in selectMeasurementsTable variable. This is done to improve and printability of the result.
+
+Since the average of the variables are required per Activity done by the subjects, I now group the selectMeasurementsTable dataset by Subjects and Activity and save the result in selectMeasurementsGroupedBySubjectsActivities variable.
+
+Now comes the last and the most important step of the project. As instructed in Step 5, I now need to create the average of all the 68 variables I have extracted in Step 2. This need to be done for all the 30 subjects present in Subjects column of selectMeasurementsGroupedBySubjectsActivities data and for each of the 6 activities corresponding to the subjects. I use the summarise function for this where I specify the selectMeasurementsGroupedBySubjectsActivities dataset and means of all the 68 columns of the dataset. Within the summarise function itself, I save the output of all the means in nice descriptive variables. The details of these variables can be seen the Codebook attached in this repository
+
+In the end, i just output my tidy data to view at the console. Please note the write.table command towards the end of the script for writing the tidy data inside the dataset location. This is required to generate the tidy data file to be attached for submission. There also a read.table command to read the data back. 
+
+Here is how I suggest that you run the script if you would like. First time around, run the script to see the tidy data at the console. Once satisfied, I suggest you to comment the tidy data command (line 307 of the script) and uncomment write and read commands (line 310 and 313) and run the script again. This will enable you to write the tidy data at the location specified and read it back to validate if the write and read process happen properly.
+
+
+
