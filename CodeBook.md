@@ -46,10 +46,10 @@ In the end, i just output my tidy data to view at the console. Please note the w
 
 Let us now understand the 68 new variable added to this dataset. But first the first two variables :-
 
-- Subjects
+- Subjects -
 This column have all the values for the Subjects (1-30) which have taken the test run. There 30 such subject available for this course dataset
 
-- Activity
+- Activity -
 These are WALKING, WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING. In this column all the above activities are listed with respect to the 30 subjects above.
 
 - meanAveBodyAccTimeXAxis 
