@@ -88,4 +88,16 @@ This is the variable which calculates the average of the standard deviation grav
 - meanStandardDevGravityAccTimeZAxis 
 This is the variable which calculates the average of the standard deviation gravity acceleration time linearly along Z Axis
 
+- meanAveBodyAccJerkTimeXAxis 
+This is the variable which calculates the average of the average body acceleration time including the jerks linearly along X Axis
+
+- meanAveBodyAccJerkTimeYAxis 
+This is the variable which calculates the average of the average body acceleration time including the jerks linearly along Y Axis
+
+- meanAveBodyAccJerkTimeZAxis 
+This is the variable which calculates the average of the average body acceleration time including the jerks linearly along Z Axis
+
+
+
+
 
