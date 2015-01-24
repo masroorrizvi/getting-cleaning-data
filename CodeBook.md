@@ -43,3 +43,49 @@ Since the average of the variables are required per Activity done by the subject
 Now comes the last and the most important step of the project. As instructed in Step 5, I now need to create the average of all the 68 variables I have extracted in Step 2. This need to be done for all the 30 subjects present in Subjects column of selectMeasurementsGroupedBySubjectsActivities data and for each of the 6 activities corresponding to the subjects. I use the summarise function for this where I specify the selectMeasurementsGroupedBySubjectsActivities dataset and means of all the 68 columns of the dataset. Within the summarise function itself, I save the output of all the means in nice descriptive variables. The details of these variables can be seen the Codebook attached in this repository
 
 In the end, i just output my tidy data to view at the console. Please note the write.table command towards the end of the script for writing the tidy data inside the dataset location. This is required to generate the tidy data file to be attached for submission. There also a read.table command to read the data back. 
+
+Let us now understand the 68 new variable added to this dataset. But first the first two variables :-
+
+- Subjects
+This column have all the values for the Subjects (1-30) which have taken the test run. There 30 such subject available for this course dataset
+
+- Activity
+These are WALKING, WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING. In this column all the above activities are listed with respect to the 30 subjects above.
+
+- meanAveBodyAccTimeXAxis 
+This is the variable which calculates the average of the average body acceleration time linearly along X Axis
+
+- meanAveBodyAccTimeYAxis 
+This is the variable which calculates the average of the average body acceleration time linearly  along Y Axis
+
+- meanAveBodyAccTimeZAxis 
+This is the variable which calculates the average of the average body acceleration time linearly  along Z Axis
+
+- meanStandardDevBodyAccTimeXAxis 
+This is the variable which calculates the average of the standard deviation body acceleration time linearly along X Axis
+
+- meanStandardDevBodyAccTimeYAxis 
+This is the variable which calculates the average of the standard deviation body acceleration time linearly along Y Axis
+
+- meanStandardDevBodyAccTimeZAxis 
+This is the variable which calculates the average of the standard deviation body acceleration time linearly along Z Axis
+
+- meanAveGravityAccTimeXAxis 
+This is the variable which calculates the average of the average gravity acceleration time linearly along X Axis
+
+- meanAveGravityAccTimeYAxis 
+This is the variable which calculates the average of the average gravity acceleration time linearly along Y Axis
+
+- meanAveGravityAccTimeZAxis 
+This is the variable which calculates the average of the average gravity acceleration time linearly along Z Axis
+
+- meanStandardDevGravityAccTimeXAxis 
+This is the variable which calculates the average of the standard deviation gravity acceleration time linearly along X Axis
+
+- meanStandardDevGravityAccTimeYAxis 
+This is the variable which calculates the average of the standard deviation gravity acceleration time linearly along Y Axis
+
+- meanStandardDevGravityAccTimeZAxis 
+This is the variable which calculates the average of the standard deviation gravity acceleration time linearly along Z Axis
+
+
