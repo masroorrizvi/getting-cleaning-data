@@ -1,6 +1,4 @@
-# README File - Getting and Cleaning Data Course Project
-
-First of all, many thanks for evaluating my course project. As mentioned in the starting instructions, I'll start with explaining the contents of run_analysis.R file.
+# Code Book - Getting and Cleaning Data Course Project
 
 As expected by the course, run_analysis.R file is divided into 5 steps. Each of these steps in the file is quite extensively commented in the code itself. I also give a run down of each of these steps and their corresponding details over here.
 
@@ -45,8 +43,3 @@ Since the average of the variables are required per Activity done by the subject
 Now comes the last and the most important step of the project. As instructed in Step 5, I now need to create the average of all the 68 variables I have extracted in Step 2. This need to be done for all the 30 subjects present in Subjects column of selectMeasurementsGroupedBySubjectsActivities data and for each of the 6 activities corresponding to the subjects. I use the summarise function for this where I specify the selectMeasurementsGroupedBySubjectsActivities dataset and means of all the 68 columns of the dataset. Within the summarise function itself, I save the output of all the means in nice descriptive variables. The details of these variables can be seen the Codebook attached in this repository
 
 In the end, i just output my tidy data to view at the console. Please note the write.table command towards the end of the script for writing the tidy data inside the dataset location. This is required to generate the tidy data file to be attached for submission. There also a read.table command to read the data back. 
-
-Here is how I suggest that you run the script if you would like. First time around, run the script to see the tidy data at the console. Once satisfied, I suggest you to comment the tidy data command (line 307 of the script) and uncomment write and read commands (line 310 and 313) and run the script again. This will enable you to write the tidy data at the location specified and read it back to validate if the write and read process happen properly.
-
-
-
