@@ -301,6 +301,7 @@ tidydata<-summarize(selectMeasurementsGroupedBySubjectsActivities,meanAveBodyAcc
           meanAveAngularGravityYAxis=mean(aveAngularGravityYAxis),
           meanAveAngularGravityZAxis=mean(aveAngularGravityZAxis))
 
+##tidydata2<-summarise_each(selectMeasurementsGroupedBySubjectsActivities,funs(mean))
 
 dim(tidydata)
 str(tidydata)

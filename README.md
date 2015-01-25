@@ -63,6 +63,8 @@ Now comes the last and the most important step of the project. As instructed in 
 
 In the end, i just output my tidy data to view at the console. Please note the write.table command towards the end of the script for writing the tidy data inside the dataset location. This is required to generate the tidy data file to be attached for submission. There also a read.table command to read the data back. 
 
+Quick Note - There another easy way of calculating the mean on all the columns using the function summarise_each that can be seen at line 302. I have not used it my script as I had already named the columns and did not have enough time to change them before submission. But that sure is a better way of summarising the data
+
 Hope you enjoyed reading the details. Best of luck for your marking !
 
 
