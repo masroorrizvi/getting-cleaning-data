@@ -3,10 +3,12 @@
 Let us now understand the 68 new variable added to this dataset. But first the first two variables :-
 
 - Subjects -
-This column have all the values for the Subjects (1-30) which have taken the test run. There 30 such subject available for this course dataset
+This column have all the values for the Subjects (1-30) which have taken the test run. There 30 such subject available for this course dataset. This data is to type integer
 
 - Activity -
-These are WALKING, WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING. In this column all the above activities are listed with respect to the 30 subjects above.
+These are WALKING, WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING. In this column all the above activities are listed with respect to the 30 subjects above. This data is of type character
+
+All the variables below are of type number
 
 - meanAveBodyAccTimeXAxis -
 This is the variable which calculates the average of the average body acceleration time linearly along X Axis
