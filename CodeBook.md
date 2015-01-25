@@ -158,25 +158,65 @@ This is the variable which calculates the average of the average body accelerati
 - meanStandardDevBodyAccJerkFastFourierTransformXAxis - 
 This is the variable which calculates the average of the average body acceleration Fast Fourier Transform including the jerks linearly along Z Axis 
 
+- meanStandardDevBodyAccJerkFastFourierTransformYAxis - 
+This is the variable which calculates the average of the standard deviation body acceleration Fast Fourier Transform including the jerks linearly along Z Axis 
 
-meanStandardDevBodyAccJerkFastFourierTransformYAxis
-          meanStandardDevBodyAccJerkFastFourierTransformZAxis
-          meanAveBodyGyrometerFastFourierTransformXAxis
-          meanAveBodyGyrometerFastFourierTransformYAxis
-          meanAveBodyGyrometerFastFourierTransformZAxis
-          meanStandardDevBodyAccGyrometerFourierTransformXAxis
-          meanStandardDevBodyAccGyrometerFourierTransformYAxis
-          meanStandardDevBodyAccGyrometerFourierTransformZAxis
-          meanAveBodyAccMagnitudeFastFourierTransform
-          meanStandardDevBodyAccMagnitudeFastFourierTransform
-          meanAveBodyGyrometerJerkMagnitudeFastFourierTransform
-          meanStandardDevGyrometerJerkMagnitudeFastFourierTransform
-          meanAveAngularBodyAccJerkTime
-          meanAveAngularBodyGyrometerTime
-          meanAveAngularBodyGyrometerJerkTime
-          meanAveAngularGravityXAxis
-          meanAveAngularGravityYAxis
-          meanAveAngularGravityZAxis
+- meanStandardDevBodyAccJerkFastFourierTransformZAxis - 
+This is the variable which calculates the average of the standard deviation body acceleration Fast Fourier Transform including the jerks linearly along Y Axis
+
+- meanAveBodyGyrometerFastFourierTransformXAxis - 
+This is the variable which calculates the average of the average body gyrometer Fast Fourier Transform linearly along X Axis 
+
+- meanAveBodyGyrometerFastFourierTransformYAxis - 
+This is the variable which calculates the average of the average body gyrometer Fast Fourier Transform linearly along Y Axis
+
+- meanAveBodyGyrometerFastFourierTransformZAxis - 
+This is the variable which calculates the average of the average body gyrometer Fast Fourier Transform linearly along Z Axis 
+
+- meanStandardDevBodyAccGyrometerFourierTransformXAxis - 
+This is the variable which calculates the average of the standard deviation body gyrometer Fast Fourier Transform linearly along X Axis 
+
+- meanStandardDevBodyAccGyrometerFourierTransformYAxis - 
+This is the variable which calculates the average of the standard deviation body gyrometer Fast Fourier Transform linearly along Y Axis 
+
+- meanStandardDevBodyAccGyrometerFourierTransformZAxis
+This is the variable which calculates the average of the standard deviation body gyrometer Fast Fourier Transform linearly along Z Axis 
+
+- meanAveBodyAccMagnitudeFastFourierTransform - 
+This is the variable which calculates the average of the average body acceleration magnitude Fast Fourier Transform linearly
+
+- meanStandardDevBodyAccMagnitudeFastFourierTransform - 
+This is the variable which calculates the average of the standard deviation body acceleration magnitude Fast Fourier Transform linearly
+
+- meanAveBodyGyrometerJerkMagnitudeFastFourierTransform - 
+This is the variable which calculates the average of the average body gyrometer  magnitude Fast Fourier Transform including the jerks linearly
+
+- meanStandardDevGyrometerJerkMagnitudeFastFourierTransform - 
+This is the variable which calculates the average of the standard deviation body gyrometer magnitude Fast Fourier Transform including the jerks linearly
+
+- meanAveAngularBodyAccJerkTime - 
+This is the variable which calculates the average of the average angular body acceleration time including the jerks
+
+- meanAveAngularBodyGyrometerTime - 
+This is the variable which calculates the average of the average angular body gyrometer time
+
+- meanAveAngularBodyGyrometerJerkTime - 
+This is the variable which calculates the average of the average angular body gyrometer time including the jerks
+
+- meanAveAngularGravityXAxis -
+This is the variable which calculates the average of the average angular gravity time along the X Axis
+
+- meanAveAngularGravityYAxis -
+This is the variable which calculates the average of the average angular gravity time along the Y Axis
+
+- meanAveAngularGravityZAxis - 
+This is the variable which calculates the average of the average angular gravity time along the Z Axis
+
+This was the list of all the calculated variables. For all code logic, please check the README.md file in the repository
+
+
+
+          
 
 
 
